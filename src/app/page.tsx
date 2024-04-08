@@ -12,7 +12,7 @@ export default function Home() {
             Programador
           </h2>
           <p className="text-zinc-800 dark:text-zinc-400 text-justify mb-8">
-            Soy un programador comprometido con la creación de aplicaciones de
+            Comprometido con la creación de aplicaciones de
             calidad. Me esfuerzo por escribir código eficiente y seguir patrones
             de diseño innovadores. Mi enfoque es serio y responsable, siempre
             buscando mejorar mis habilidades y conocimientos.
