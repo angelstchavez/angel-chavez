@@ -10,7 +10,7 @@ export default function Home() {
             Angel Chavez
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium tracking-tight mb-4 text-black dark:text-white">
-            Programador
+            Software Developer
           </h2>
           <p className="text-zinc-800 dark:text-zinc-400 mb-8">
             Comprometido con la creación de aplicaciones de calidad. Me esfuerzo
