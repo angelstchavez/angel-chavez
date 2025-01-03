@@ -17,7 +17,7 @@ const Home = () => {
           <FaGithub size={24} />
         </Link>
         <Link
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/angelstchavez"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-600 hover:text-neutral-800"
@@ -25,7 +25,7 @@ const Home = () => {
           <FaLinkedin size={24} />
         </Link>
         <Link
-          href="https://twitter.com/yourusername"
+          href="https://twitter.com/angelstchavez"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-600 hover:text-neutral-800"
