@@ -1,3 +1,15 @@
+import Education from "@/components/sections/education";
+import Header from "@/components/sections/header";
+import Projects from "@/components/sections/projects";
+import Skills from "@/components/sections/skills";
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="max-w-3xl mx-auto px-4 py-12">
+      <Header />
+      <Skills />
+      <Education />
+      <Projects />
+    </div>
+  );
 }
