@@ -39,7 +39,7 @@ export default function Education() {
 
 function EducationItem({ image, institution, degree, period }: Education) {
   return (
-    <div className="flex flex-col sm:flex-row items-start gap-4 border rounded-md p-2">
+    <div className="flex flex-col sm:flex-row items-start gap-2">
       <Avatar className="size-16 sm:size-12 border">
         <AvatarImage
           src={image || "/placeholder.svg"}
@@ -48,7 +48,7 @@ function EducationItem({ image, institution, degree, period }: Education) {
       </Avatar>
       <div className="flex-1 space-y-1">
         <h3 className="font-semibold">{institution}</h3>
-        <p className="text-sm text-muted-foreground">{degree}</p>
+        <p className="text-sm">{degree}</p>
         <p className="text-sm text-muted-foreground sm:hidden">{period}</p>
       </div>
       <span className="hidden sm:inline-block text-sm text-muted-foreground">

@@ -4,7 +4,6 @@ const projects = [
   {
     title: "Pokepedia",
     description: "Pokemon app built with Sveltekit",
-    image: "/placeholder.svg?height=200&width=300",
     technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
     websiteUrl: "https://example.com/pokepedia",
     sourceUrl: "https://github.com/example/pokepedia",
@@ -12,7 +11,6 @@ const projects = [
   {
     title: "Techno Fix",
     description: "Static page made for a tech fix company",
-    image: "/placeholder.svg?height=200&width=300",
     technologies: ["Astro", "TailwindCSS", "React"],
     websiteUrl: "https://example.com/technofix",
     sourceUrl: "https://github.com/example/technofix",
@@ -20,7 +18,6 @@ const projects = [
   {
     title: "Pokepedia",
     description: "Pokemon app built with Sveltekit",
-    image: "/placeholder.svg?height=200&width=300",
     technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
     websiteUrl: "https://example.com/pokepedia",
     sourceUrl: "https://github.com/example/pokepedia",
@@ -28,7 +25,6 @@ const projects = [
   {
     title: "Techno Fix",
     description: "Static page made for a tech fix company",
-    image: "/placeholder.svg?height=200&width=300",
     technologies: ["Astro", "TailwindCSS", "React"],
     websiteUrl: "https://example.com/technofix",
     sourceUrl: "https://github.com/example/technofix",
