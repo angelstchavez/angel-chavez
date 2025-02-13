@@ -39,7 +39,7 @@ export default function Projects() {
         I&apos;ve worked on a variety of projects, from simple websites to
         complex web applications. Here are a few of my favorites.
       </p>
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
         ))}
