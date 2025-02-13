@@ -2,6 +2,7 @@ import Education from "@/components/sections/education";
 import Header from "@/components/sections/header";
 import Projects from "@/components/sections/projects";
 import Skills from "@/components/sections/skills";
+import SupplementaryEducation from "@/components/sections/supplementary-education";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Skills />
       <Education />
+      <SupplementaryEducation />
       <Projects />
     </div>
   );

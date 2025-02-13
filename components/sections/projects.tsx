@@ -2,28 +2,28 @@ import { ProjectCard } from "../utils/project-cart";
 
 const projects = [
   {
-    title: "Pokepedia",
+    title: "Demo 1",
     description: "Pokemon app built with Sveltekit",
     technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
     websiteUrl: "https://example.com/pokepedia",
     sourceUrl: "https://github.com/example/pokepedia",
   },
   {
-    title: "Techno Fix",
+    title: "Demo 2",
     description: "Static page made for a tech fix company",
     technologies: ["Astro", "TailwindCSS", "React"],
     websiteUrl: "https://example.com/technofix",
     sourceUrl: "https://github.com/example/technofix",
   },
   {
-    title: "Pokepedia",
+    title: "Demo 3",
     description: "Pokemon app built with Sveltekit",
     technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
     websiteUrl: "https://example.com/pokepedia",
     sourceUrl: "https://github.com/example/pokepedia",
   },
   {
-    title: "Techno Fix",
+    title: "Demo 4",
     description: "Static page made for a tech fix company",
     technologies: ["Astro", "TailwindCSS", "React"],
     websiteUrl: "https://example.com/technofix",

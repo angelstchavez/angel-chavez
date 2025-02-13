@@ -37,7 +37,7 @@ export default function Education() {
   );
 }
 
-function EducationItem({ image, institution, degree, period }: Education) {
+export function EducationItem({ image, institution, degree, period }: Education) {
   return (
     <div className="flex flex-col sm:flex-row items-start gap-2">
       <Avatar className="size-16 sm:size-12 border">
