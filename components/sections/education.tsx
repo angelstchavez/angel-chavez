@@ -1,13 +1,6 @@
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import { EducationItem, EducationProps } from "../utils/education-item";
 
-interface Education {
-  image: string;
-  institution: string;
-  degree: string;
-  period: string;
-}
-
-const EDUCATION: Education[] = [
+const EDUCATION: EducationProps[] = [
   {
     image: "/assets/sena.png",
     institution: "Servicio Nacional de Aprendizaje",
@@ -33,27 +26,6 @@ export default function Education() {
           <EducationItem key={item.institution} {...item} />
         ))}
       </div>
-    </div>
-  );
-}
-
-export function EducationItem({ image, institution, degree, period }: Education) {
-  return (
-    <div className="flex flex-col sm:flex-row items-start gap-2">
-      <Avatar className="size-16 sm:size-12 border">
-        <AvatarImage
-          src={image || "/placeholder.svg"}
-          alt={`${institution} logo`}
-        />
-      </Avatar>
-      <div className="flex-1 space-y-1">
-        <h3 className="font-semibold">{institution}</h3>
-        <p className="text-sm">{degree}</p>
-        <p className="text-sm text-muted-foreground sm:hidden">{period}</p>
-      </div>
-      <span className="hidden sm:inline-block text-sm text-muted-foreground">
-        {period}
-      </span>
     </div>
   );
 }

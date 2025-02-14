@@ -1,5 +1,5 @@
 import React from "react";
-import { EducationItem } from "./education";
+import { EducationItem } from "../utils/education-item";
 
 interface Education {
   image: string;
@@ -62,7 +62,7 @@ const SupplementaryEducation = () => {
       </div>
       <div className="space-y-4">
         {EDUCATION.map((item) => (
-          <EducationItem key={item.institution} {...item} />
+          <EducationItem key={`${item.institution}-${item.degree}`} {...item} />
         ))}
       </div>
     </div>
