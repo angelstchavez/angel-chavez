@@ -1,6 +1,7 @@
 "use client";
 
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import Link from "next/link";
 import { useState } from "react";
 import { LiaSpinnerSolid } from "react-icons/lia";
 
@@ -9,6 +10,7 @@ export interface EducationProps {
   institution: string;
   degree: string;
   period: string;
+  url: string;
 }
 
 export function EducationItem({
@@ -16,6 +18,7 @@ export function EducationItem({
   institution,
   degree,
   period,
+  url,
 }: EducationProps) {
   const [loading, setLoading] = useState(true);
 
@@ -36,7 +39,15 @@ export function EducationItem({
         />
       </Avatar>
       <div className="flex-1 space-y-1">
-        <h3 className="font-semibold">{institution}</h3>
+        <Link href={url} passHref legacyBehavior>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            <h3 className="font-semibold hover:underline">{institution}</h3>
+          </a>
+        </Link>
         <p className="text-sm">{degree}</p>
         <p className="text-sm text-muted-foreground sm:hidden">{period}</p>
       </div>
