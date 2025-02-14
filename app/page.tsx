@@ -1,3 +1,4 @@
+import { ContactMe } from "@/components/sections/contact-me";
 import Education from "@/components/sections/education";
 import Header from "@/components/sections/header";
 import Projects from "@/components/sections/projects";
@@ -12,6 +13,7 @@ export default function Home() {
       <Education />
       <SupplementaryEducation />
       <Projects />
+      <ContactMe />
     </div>
   );
 }
