@@ -1,33 +1,42 @@
 import { ProjectCard } from "../utils/project-cart";
 
+import upcBoard from "@/public/images/upc-board.png";
+import vidface from "@/public/images/vidface.png";
+import ecommerce from "@/public/images/ecommerce.png";
+import poslite from "@/public/images/postlite.png";
+
 const projects = [
   {
-    title: "Demo 1",
-    description: "Pokemon app built with Sveltekit",
-    technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
-    websiteUrl: "https://example.com/pokepedia",
-    sourceUrl: "https://github.com/example/pokepedia",
+    title: "UPC Saber Pro",
+    description: "Analysis of Saber Pro results in Colombia",
+    technologies: ["Nextjs", "Power BI", "Python", "FastAPI"],
+    websiteUrl: "https://upc-board.vercel.app/",
+    sourceUrl: "https://upc-board.vercel.app/",
+    image: upcBoard,
   },
   {
-    title: "Demo 2",
-    description: "Static page made for a tech fix company",
-    technologies: ["Astro", "TailwindCSS", "React"],
-    websiteUrl: "https://example.com/technofix",
-    sourceUrl: "https://github.com/example/technofix",
+    title: "Vidface",
+    description: "A video calling tool for seamless communication.",
+    technologies: ["Nextjs", "TailwindCSS", "Clerk"],
+    websiteUrl: "https://github.com/example/technofix",
+    sourceUrl: "https://vidface.vercel.app/",
+    image: vidface,
   },
   {
-    title: "Demo 3",
-    description: "Pokemon app built with Sveltekit",
-    technologies: ["SvelteKit", "TailwindCSS", "TypeScript"],
-    websiteUrl: "https://example.com/pokepedia",
-    sourceUrl: "https://github.com/example/pokepedia",
+    title: "Ecommerce",
+    description: "An online store for modern shopping.",
+    technologies: ["Shadcn", "TailwindCSS", "TypeScript"],
+    websiteUrl: "https://ecomodern.vercel.app/",
+    sourceUrl: "https://ecomodern.vercel.app/",
+    image: ecommerce,
   },
   {
-    title: "Demo 4",
-    description: "Static page made for a tech fix company",
-    technologies: ["Astro", "TailwindCSS", "React"],
-    websiteUrl: "https://example.com/technofix",
-    sourceUrl: "https://github.com/example/technofix",
+    title: "Poslite",
+    description: "Landing page for a POS system.",
+    technologies: ["Nextjs", "Clerk", "TailwindCSS", "React"],
+    websiteUrl: "https://poslite-opal.vercel.app/",
+    sourceUrl: "https://poslite-opal.vercel.app/",
+    image: poslite,
   },
 ];
 

@@ -1,13 +1,12 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Code2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { Code2 } from "lucide-react";
+import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
   title: string;
   description: string;
-  image?: string;
+  image?: StaticImageData; // Ahora es un objeto importado en lugar de string
   technologies: string[];
   websiteUrl?: string;
   sourceUrl?: string;
@@ -15,7 +14,7 @@ interface ProjectCardProps {
 
 interface ProjectImageProps {
   title: string;
-  image?: string;
+  image?: StaticImageData; // Cambiado a StaticImageData
 }
 
 export function ProjectImage({ title, image }: ProjectImageProps) {
@@ -30,10 +29,12 @@ export function ProjectImage({ title, image }: ProjectImageProps) {
   return (
     <div className="relative">
       <Image
-        src={image || "/placeholder.svg"}
+        src={image}
         alt={`${title} preview`}
-        fill
-        className="aspect-3/2 object-cover transition-transform duration-300 group-hover:scale-105"
+        layout="responsive"
+        width={300} // Ajusta según diseño
+        height={200} // Ajusta según diseño
+        className="object-cover transition-transform duration-300 group-hover:scale-105"
       />
     </div>
   );
