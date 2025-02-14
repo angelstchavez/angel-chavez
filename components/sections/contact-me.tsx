@@ -3,6 +3,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaFacebook,
+  FaGithub,
 } from "react-icons/fa6";
 import Link from "next/link";
 
@@ -16,10 +17,18 @@ export function ContactMe() {
       </p>
       <div className="flex justify-center gap-4 mt-2">
         <Link
+          href="https://github.com/angelstchavez"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Github"
+        >
+          <FaGithub size={32} />
+        </Link>
+        <Link
           href="https://x.com/angelstchavez"
           target="_blank"
           rel="noopener noreferrer"
-          title="Twitter"
+          title="X"
         >
           <FaXTwitter size={32} />
         </Link>
