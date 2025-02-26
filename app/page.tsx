@@ -1,5 +1,6 @@
 import { ContactMe } from "@/components/sections/contact-me";
 import Education from "@/components/sections/education";
+import Github from "@/components/sections/github";
 import Header from "@/components/sections/header";
 import Projects from "@/components/sections/projects";
 import Skills from "@/components/sections/skills";
@@ -13,6 +14,7 @@ export default function Home() {
       <Education />
       <SupplementaryEducation />
       <Projects />
+      <Github />
       <ContactMe />
     </div>
   );
