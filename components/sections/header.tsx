@@ -10,7 +10,7 @@ export default function Header() {
               Angel Chavez
             </h1>
             <p className="text-lg">
-              Software Engineer with a strong focus on user experience, design
+              Software Developer with a strong focus on user experience, design
               and quality code.
             </p>
           </div>
