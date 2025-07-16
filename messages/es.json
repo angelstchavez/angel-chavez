@@ -1,0 +1,125 @@
+{
+  "portfolioPage": {
+    "name": "Angel Chavez",
+    "title": "Desarrollador de software",
+    "aboutMe": "Hola, soy Angel. Vivo en Valledupar, Colombia. Soy Desarrollador de Software con un fuerte enfoque en la experiencia del usuario, el diseño y la calidad del código. Me apasiona crear soluciones tecnológicas que sean intuitivas, eficientes y escalables.",
+    "projectsLink": "Proyectos",
+    "educationLink": "Publicaciones",
+    "aboutMeSectionTitle": "Sobre mí",
+    "featuredProjectsSectionTitle": "Proyectos destacados",
+    "projects": {
+      "project1": {
+        "title": "ProjectPlannerAI",
+        "description": "Gestiona tus proyectos personales en un solo lugar."
+      },
+      "project2": {
+        "title": "TechStackFinder",
+        "description": "Las mejores tecnologías para construir proyectos y SaaS."
+      },
+      "project3": {
+        "title": "PortfoliosHub",
+        "description": "Encuentra los mejores portafolios y muestra tu trabajo."
+      }
+    },
+    "viewAllProjects": "Ver todos los proyectos",
+    "latestEducationSectionTitle": "Educación",
+    "education": {
+      "education1": {
+        "title": "Universidad Popular del Cesar",
+        "date": "Ingeniería de Sistemas, 2021 - Actualidad."
+      },
+      "education2": {
+        "title": "Servicio Nacional de Aprendizaje SENA",
+        "date": "Tecnólogo en Gestión Administrativa, 2018 - 2021."
+      },
+      "education3": {
+        "title": "Universidad Tecnológica de Pereira",
+        "date": "MINTIC 2022: Desarrollo de aplicaciones web, 2022."
+      }
+    },
+    "viewAllEducation": "Ver toda la educación",
+    "copyright": "© 2025 Angel Chavez"
+  },
+  "educationPage": {
+    "title": "Educación",
+    "certificationsSectionTitle": "Certificaciones y Cursos",
+    "viewProjectsLink": "Volver a casa",
+    "certifications": {
+      "cert1": {
+        "institution": "Universidad Popular del Cesar",
+        "title": "Ingeniería de Sistemas",
+        "date": "Sep. 2021 - Actualidad"
+      },
+      "cert2": {
+        "institution": "Servicio Nacional de Aprendizaje SENA",
+        "title": "Tecnólogo en Gestión Administrativa",
+        "date": "Dic. 2021"
+      },
+      "cert3": {
+        "institution": "Universidad Tecnológica de Pereira",
+        "title": "MINTIC 2022: Desarrollo de aplicaciones web",
+        "date": "Dic. 2022"
+      },
+      "cert4": {
+        "institution": "Microsoft y LinkedIn",
+        "title": "Fundamentos profesionales del desarrollo de software",
+        "date": "Abr. 2023"
+      },
+      "cert5": {
+        "institution": "Alura Latam",
+        "title": "Oracle Next Education F2 T4 Programa de Back-end",
+        "date": "Jun. 2023"
+      },
+      "cert6": {
+        "institution": "Google",
+        "title": "Fundamentos de Ciberseguridad",
+        "date": "Jul. 2024"
+      },
+      "cert7": {
+        "institution": "Meta",
+        "title": "Introducción al desarrollo back-end",
+        "date": "Sep. 2024"
+      },
+      "cert8": {
+        "institution": "Google",
+        "title": "Fundamentos de IA de Google",
+        "date": "Sep. 2024"
+      },
+      "cert9": {
+        "institution": "Universidad de California, Irvine – Escuela de Negocios Paul Merage",
+        "title": "Cómo resolver problemas y tomar decisiones eficazmente",
+        "date": "Septiembre de 2024"
+      }
+    }
+  },
+  "projectsPage": {
+    "title": "Proyectos destacados",
+    "description": "He trabajado en una variedad de proyectos, desde sitios simples hasta aplicaciones complejas. Aquí algunos de mis favoritos.",
+    "website": "Sitio web",
+    "source": "Código fuente",
+    "goBack": "Volver al inicio",
+    "projects": {
+      "project1": {
+        "title": "UPC Saber Pro",
+        "description": "Análisis de resultados Saber Pro en Colombia."
+      },
+      "project2": {
+        "title": "Vidface",
+        "description": "Herramienta de videollamadas para comunicación fluida."
+      },
+      "project3": {
+        "title": "Ecommerce",
+        "description": "Tienda en línea para compras modernas."
+      },
+      "project4": {
+        "title": "Poslite",
+        "description": "Landing page para un sistema POS."
+      }
+    }
+  },
+  "notFoundPage": {
+    "title": "404",
+    "description": "Página no encontrada",
+    "backToHome": "Volver al inicio"
+  }
+}

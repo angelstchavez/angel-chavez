@@ -1,0 +1,125 @@
+{
+  "portfolioPage": {
+    "name": "Angel Chavez",
+    "title": "Software Developer",
+    "aboutMe": "Hi, I'm Angel. I live in Valledupar, Colombia. I'm a Software Developer with a strong focus on user experience, design, and high-quality code. I'm passionate about building tech solutions that are intuitive, efficient, and scalable.",
+    "projectsLink": "Projects",
+    "educationLink": "Education",
+    "aboutMeSectionTitle": "About me",
+    "featuredProjectsSectionTitle": "Featured Projects",
+    "projects": {
+      "project1": {
+        "title": "ProjectPlannerAI",
+        "description": "Manage your side projects in one place."
+      },
+      "project2": {
+        "title": "TechStackFinder",
+        "description": "Top stacks for building projects and SaaS."
+      },
+      "project3": {
+        "title": "PortfoliosHub",
+        "description": "Find the best portfolios and showcase your work."
+      }
+    },
+    "viewAllProjects": "View all projects",
+    "latestEducationSectionTitle": "Latest education",
+    "education": {
+      "education1": {
+        "title": "Universidad Popular del Cesar",
+        "date": "Systems Engineering, 2021 - Now."
+      },
+      "education2": {
+        "title": "Servicio Nacional de Aprendizaje SENA",
+        "date": "Administrative Management Technologist, 2018 - 2021."
+      },
+      "education3": {
+        "title": "Universidad Tecnológica de Pereira",
+        "date": "MINTIC 2022: Web application development, 2022."
+      }
+    },
+    "viewAllEducation": "View all education",
+    "copyright": "© Angel Chavez"
+  },
+  "educationPage": {
+    "title": "Education",
+    "certificationsSectionTitle": "Certifications and Courses",
+    "viewProjectsLink": "Back to home",
+    "certifications": {
+      "cert1": {
+        "institution": "Universidad Popular del Cesar",
+        "title": "Systems Engineering",
+        "date": "Sep. 2021 - Present"
+      },
+      "cert2": {
+        "institution": "National Learning Service SENA",
+        "title": "Administrative Management Technologist",
+        "date": "Dec. 2021"
+      },
+      "cert3": {
+        "institution": "Universidad Tecnológica de Pereira",
+        "title": "MINTIC 2022: Web Application Development",
+        "date": "Dec. 2022"
+      },
+      "cert4": {
+        "institution": "Microsoft and LinkedIn",
+        "title": "Professional Fundamentals of Software Development",
+        "date": "Apr. 2023"
+      },
+      "cert5": {
+        "institution": "Alura Latam",
+        "title": "Oracle Next Education F2 T4 Back-end Program",
+        "date": "Jun. 2023"
+      },
+      "cert6": {
+        "institution": "Google",
+        "title": "Cybersecurity Fundamentals",
+        "date": "Jul. 2024"
+      },
+      "cert7": {
+        "institution": "Meta",
+        "title": "Introduction to Back-end Development",
+        "date": "Sep. 2024"
+      },
+      "cert8": {
+        "institution": "Google",
+        "title": "Google AI Essentials",
+        "date": "Sep. 2024"
+      },
+      "cert9": {
+        "institution": "University of California, Irvine – The Paul Merage School of Business",
+        "title": "How to solve problems and make decisions effectively",
+        "date": "Sep. 2024"
+      }
+    }
+  },
+  "projectsPage": {
+    "title": "Featured Projects",
+    "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+    "website": "Website",
+    "source": "Source",
+    "goBack": "Go back to home",
+    "projects": {
+      "project1": {
+        "title": "UPC Saber Pro",
+        "description": "Analysis of Saber Pro results in Colombia."
+      },
+      "project2": {
+        "title": "Vidface",
+        "description": "A video calling tool for seamless communication."
+      },
+      "project3": {
+        "title": "Ecommerce",
+        "description": "An online store for modern shopping."
+      },
+      "project4": {
+        "title": "Poslite",
+        "description": "Landing page for a POS system."
+      }
+    }
+  },
+  "notFoundPage": {
+    "title": "404",
+    "description": "Page not found",
+    "backToHome": "Back to home"
+  }
+}
