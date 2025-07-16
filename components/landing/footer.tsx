@@ -12,9 +12,9 @@ type SocialLinks = {
 
 export function Footer({
   socialLinks = {
-    github: "#",
-    x: "#",
-    linkedin: "#",
+    github: "https://github.com/angelstchavez",
+    x: "https://x.com/angelstchavez",
+    linkedin: "https://www.linkedin.com/in/angelstchavez/",
   },
 }: {
   socialLinks?: SocialLinks;
