@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Alexandria, Poppins } from 'next/font/google';
 import { getMessages } from "next-intl/server";
 
 import { ThemeProvider } from "@/components/theme/theme-provider";
@@ -11,15 +11,19 @@ import "./globals.css";
 import { Header } from "@/components/landing/header";
 import { Footer } from "@/components/landing/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+const alexandria = Alexandria({
+  subsets: ['latin'],
+  weight: ['600'],
+  variable: '--display-family',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--text-family',
 });
+
 
 export const metadata: Metadata = {
   title: "Angel Chavez",
@@ -45,9 +49,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${alexandria.variable} ${poppins.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
