@@ -1,11 +1,13 @@
 "use client";
 
 import type React from "react";
-import { ArrowRight, Book } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import ExternalLink from "@/components/ui/external-link";
+
+import systemcenter from "@/assets/icons/systemcenter.jpg";
 
 import sena from "@/assets/icons/sena.png";
 import upc from "@/assets/icons/upc.png";
@@ -15,7 +17,7 @@ interface Project {
   icon: React.ReactNode;
   id: string;
   href: string;
-} 
+}
 
 interface Education {
   icon: React.ReactNode;
@@ -27,17 +29,27 @@ export default function PortfolioPage() {
   const t = useTranslations("portfolioPage");
   const projects: Project[] = [
     {
-      icon: <Book className="h-4 w-4" />,
+      icon: (
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
+            <Image
+              src={systemcenter}
+              alt="University icon"
+              fill
+              className="object-cover rounded"
+            />
+          </div>
+        </div>
+      ),
       id: "project1",
-      href: "#",
+      href: "https://www.systemcenter.edu.co",
     },
-
   ];
   const education: Education[] = [
     {
       icon: (
-        <div className="rounded bg-primary/10 text-primary shadow-sm">
-          <div className="relative w-10 h-10">
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
             <Image
               src={upc}
               alt="University icon"
@@ -52,8 +64,8 @@ export default function PortfolioPage() {
     },
     {
       icon: (
-        <div className="rounded bg-primary/10 text-primary shadow-sm">
-          <div className="relative w-10 h-10">
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
             <Image
               src={sena}
               alt="University icon"
@@ -68,8 +80,8 @@ export default function PortfolioPage() {
     },
     {
       icon: (
-        <div className="rounded bg-primary/10 text-primary shadow-sm">
-          <div className="relative w-10 h-10">
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
             <Image
               src={mintic}
               alt="University icon"
@@ -105,7 +117,7 @@ export default function PortfolioPage() {
               className="flex items-center justify-between p-2 rounded-md hover:bg-muted/40 transition-colors group"
             >
               <div className="flex items-center gap-3">
-                <div className="p-3 rounded bg-primary/10 text-primary">
+                <div className="rounded bg-primary/10 text-primary">
                   {project.icon}
                 </div>
                 <div>

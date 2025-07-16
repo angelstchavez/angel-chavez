@@ -1,14 +1,19 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { ArrowLeft } from "lucide-react";
+import { FiGlobe, FiGithub } from "react-icons/fi";
+
+import systemcenter from "@/assets/images/systemcenter-project.png";
 
 interface Project {
   id: string;
-  image?: string;
+  image?: string | StaticImageData;
   techStack: string[];
+  websiteUrl?: string;
+  repositoryUrl?: string;
 }
 
 export default function ProjectsPage() {
@@ -17,19 +22,27 @@ export default function ProjectsPage() {
   const projects: Project[] = [
     {
       id: "project1",
-      techStack: ["Nextjs", "Power BI", "Python", "FastAPI"],
+      techStack: ["Nextjs", "Shadcn", "Tailwind"],
+      image: systemcenter,
+      websiteUrl: "https://www.systemcenter.edu.co",
     },
     {
       id: "project2",
       techStack: ["Nextjs", "TailwindCSS", "Clerk"],
+      websiteUrl: "https://example.com/project2",
+      repositoryUrl: "https://github.com/username/project2",
     },
     {
       id: "project3",
       techStack: ["Shadcn", "TailwindCSS", "TypeScript"],
+      websiteUrl: "https://example.com/project3",
+      repositoryUrl: "https://github.com/username/project3",
     },
     {
       id: "project4",
       techStack: ["Nextjs", "Clerk", "TailwindCSS", "React"],
+      websiteUrl: "https://example.com/project4",
+      repositoryUrl: "https://github.com/username/project4",
     },
   ];
 
@@ -45,14 +58,15 @@ export default function ProjectsPage() {
               key={index}
               className="rounded-md border overflow-hidden hover:shadow-sm transition-shadow bg-background"
             >
-              <Image
-                src={project.image ?? "/placeholder.svg"}
-                alt={t(`projects.${project.id}.title`)}
-                width={600}
-                height={300}
-                className="w-full h-[140px] object-cover"
-                priority
-              />
+              <div className="relative w-full h-[150px] w-a bg-muted">
+                <Image
+                  src={project.image ?? "/placeholder.svg"}
+                  alt={t(`projects.${project.id}.title`)}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <div className="p-3 flex flex-col gap-1.5">
                 <div>
                   <h3 className="font-medium text-sm">
@@ -73,18 +87,28 @@ export default function ProjectsPage() {
                   ))}
                 </div>
                 <div className="flex gap-2 mt-1">
-                  <Link
-                    href="#"
-                    className="text-[11px] px-2 py-0.5 border rounded hover:underline"
-                  >
-                    🌐 {t("website")}
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-[11px] px-2 py-0.5 border rounded hover:underline"
-                  >
-                    💻 {t("source")}
-                  </Link>
+                  {project.websiteUrl && (
+                    <Link
+                      href={project.websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 border rounded hover:underline"
+                    >
+                      <FiGlobe className="h-3 w-3" />
+                      {t("website")}
+                    </Link>
+                  )}
+                  {project.repositoryUrl && (
+                    <Link
+                      href={project.repositoryUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 border rounded hover:underline"
+                    >
+                      <FiGithub className="h-3 w-3" />
+                      {t("source")}
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>

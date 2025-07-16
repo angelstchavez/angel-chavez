@@ -9,8 +9,8 @@
     "featuredProjectsSectionTitle": "Featured Projects",
     "projects": {
       "project1": {
-        "title": "ProjectPlannerAI",
-        "description": "Manage your side projects in one place."
+        "title": "System Center",
+        "description": "Corporate web platform for educational institution specializing in technical vocational programs and professional training."
       },
       "project2": {
         "title": "TechStackFinder",
@@ -100,8 +100,8 @@
     "goBack": "Go back to home",
     "projects": {
       "project1": {
-        "title": "UPC Saber Pro",
-        "description": "Analysis of Saber Pro results in Colombia."
+        "title": "System Center",
+        "description": "Corporate web platform for educational institution specializing in technical vocational programs and professional training."
       },
       "project2": {
         "title": "Vidface",

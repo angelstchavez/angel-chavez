@@ -9,8 +9,8 @@
     "featuredProjectsSectionTitle": "Proyectos destacados",
     "projects": {
       "project1": {
-        "title": "ProjectPlannerAI",
-        "description": "Gestiona tus proyectos personales en un solo lugar."
+        "title": "System Center",
+        "description": "Plataforma web corporativa para institución educativa especializada en programas técnicos laborales y capacitación profesional."
       },
       "project2": {
         "title": "TechStackFinder",
@@ -100,8 +100,8 @@
     "goBack": "Volver al inicio",
     "projects": {
       "project1": {
-        "title": "UPC Saber Pro",
-        "description": "Análisis de resultados Saber Pro en Colombia."
+        "title": "System Center",
+        "description": "Plataforma web corporativa para institución educativa especializada en programas técnicos laborales y capacitación profesional."
       },
       "project2": {
         "title": "Vidface",
