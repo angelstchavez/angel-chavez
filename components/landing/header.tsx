@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 import { ThemeToggle } from "@/components/theme/theme-toggle";
@@ -28,13 +27,7 @@ export function Header() {
           <p className="text-muted-foreground text-sm">{title}</p>
         </div>
       </div>
-      <nav className="flex items-center gap-4 text-sm">
-        <Link href="/projects" className="hover:underline">
-          {t("projectsLink")}
-        </Link>
-        <Link href="/education" className="hover:underline">
-          {t("educationLink")}
-        </Link>
+      <nav className="flex items-center gap-2 text-sm">
         <LanguageToggle />
         <ThemeToggle />
       </nav>
