@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import ExternalLink from "@/components/ui/external-link";
 
 import systemcenter from "@/assets/icons/systemcenter.jpg";
+import shoescol from "@/assets/icons/shoescol.png";
 
 import sena from "@/assets/icons/sena.png";
 import upc from "@/assets/icons/upc.png";
@@ -43,6 +44,22 @@ export default function PortfolioPage() {
       ),
       id: "project1",
       href: "https://www.systemcenter.edu.co",
+    },
+    {
+      icon: (
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
+            <Image
+              src={shoescol}
+              alt="Shoescol icon"
+              fill
+              className="object-cover rounded"
+            />
+          </div>
+        </div>
+      ),
+      id: "project2",
+      href: "https://shoescol.vercel.app/",
     },
   ];
   const education: Education[] = [
