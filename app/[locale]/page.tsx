@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import ExternalLink from "@/components/ui/external-link";
 
 import systemcenter from "@/assets/icons/systemcenter.jpg";
-import shoescol from "@/assets/icons/shoescol.png";
+import shoescol from "@/assets/icons/shoescol.jpg";
 
 import sena from "@/assets/icons/sena.png";
 import upc from "@/assets/icons/upc.png";
