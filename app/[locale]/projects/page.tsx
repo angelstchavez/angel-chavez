@@ -7,6 +7,7 @@ import { ArrowLeft } from "lucide-react";
 import { FiGlobe, FiGithub } from "react-icons/fi";
 
 import systemcenter from "@/assets/images/systemcenter-project.png";
+import shoescol from "@/assets/images/shoescol-project.png";
 
 interface Project {
   id: string;
@@ -28,9 +29,9 @@ export default function ProjectsPage() {
     },
     {
       id: "project2",
-      techStack: ["Nextjs", "TailwindCSS", "Clerk"],
-      websiteUrl: "https://example.com/project2",
-      repositoryUrl: "https://github.com/username/project2",
+      techStack: ["Nextjs", "TailwindCSS", "WhatsApp API"],
+      image: shoescol,
+      websiteUrl: "https://shoescol.vercel.app/",
     },
     {
       id: "project3",
