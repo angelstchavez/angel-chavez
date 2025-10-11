@@ -46,12 +46,6 @@ export default function ProjectsPage() {
       websiteUrl: "https://example.com/project3",
       repositoryUrl: "https://github.com/username/project3",
     },
-    {
-      id: "project4",
-      techStack: ["Nextjs", "Clerk", "TailwindCSS", "React"],
-      websiteUrl: "https://example.com/project4",
-      repositoryUrl: "https://github.com/username/project4",
-    },
   ];
 
   return (
