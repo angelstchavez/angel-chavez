@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { ArrowLeft } from "lucide-react";
 import { FiGlobe, FiGithub } from "react-icons/fi";
 
+import alphaware from "@/assets/images/alphaware-project.png";
 import systemcenter from "@/assets/images/systemcenter-project.png";
 import shoescol from "@/assets/images/shoescol-project.png";
 
@@ -24,17 +25,23 @@ export default function ProjectsPage() {
     {
       id: "project1",
       techStack: ["Nextjs", "Shadcn", "Tailwind"],
+      image: alphaware,
+      websiteUrl: "https://www.alphaware.co/es",
+    },
+    {
+      id: "project2",
+      techStack: ["Nextjs", "Shadcn", "Tailwind"],
       image: systemcenter,
       websiteUrl: "https://www.systemcenter.edu.co",
     },
     {
-      id: "project2",
+      id: "project3",
       techStack: ["Nextjs", "TailwindCSS", "WhatsApp API"],
       image: shoescol,
       websiteUrl: "https://shoescol.vercel.app/",
     },
     {
-      id: "project3",
+      id: "project4",
       techStack: ["Shadcn", "TailwindCSS", "TypeScript"],
       websiteUrl: "https://example.com/project3",
       repositoryUrl: "https://github.com/username/project3",

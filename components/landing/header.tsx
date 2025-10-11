@@ -27,7 +27,7 @@ export function Header() {
           <p className="text-muted-foreground text-sm">{title}</p>
         </div>
       </div>
-      <nav className="flex items-center gap-2 text-sm">
+      <nav className="flex items-center gap-2 space-x-2 text-sm">
         <LanguageToggle />
         <ThemeToggle />
       </nav>

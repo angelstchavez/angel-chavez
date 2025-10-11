@@ -9,16 +9,20 @@
     "featuredProjectsSectionTitle": "Proyectos destacados",
     "projects": {
       "project1": {
-        "title": "System Center",
-        "description": "Plataforma web corporativa para institución educativa especializada en programas técnicos laborales y capacitación profesional."
+        "title": "Alphaware",
+        "description": "Desarrollé el sitio web corporativo de Alphaware, una empresa de soluciones tecnológicas especializada en desarrollo de software a medida, consultoría en transformación digital, ciberseguridad, inteligencia artificial y servicios en la nube."
       },
       "project2": {
-        "title": "Shoescol",
-        "description": "Plataforma de comercio para zapatos y ropa, ofreciendo una amplia gama de productos con una interfaz fácil de usar."
+        "title": "System Center",
+        "description": "Diseñé y desarrollé la plataforma web corporativa para una institución educativa enfocada en programas técnicos laborales y capacitación profesional, optimizando su presencia digital y gestión académica."
       },
       "project3": {
+        "title": "Shoescol",
+        "description": "Desarrollé una plataforma de comercio electrónico para la venta de zapatos y ropa, ofreciendo una experiencia de compra moderna, ágil y con una interfaz atractiva y fácil de usar."
+      },
+      "project4": {
         "title": "PortfoliosHub",
-        "description": "Encuentra los mejores portafolios y muestra tu trabajo."
+        "description": "Creé una aplicación web que permite a los usuarios descubrir y mostrar portafolios profesionales, facilitando la conexión entre talentos y oportunidades."
       }
     },
     "viewAllProjects": "Ver todos los proyectos",
@@ -100,20 +104,24 @@
     "goBack": "Volver al inicio",
     "projects": {
       "project1": {
-        "title": "System Center",
-        "description": "Plataforma web corporativa para institución educativa especializada en programas técnicos laborales y capacitación profesional."
+        "title": "Alphaware",
+        "description": "Desarrollé el sitio web corporativo de Alphaware, una empresa de soluciones tecnológicas especializada en software a medida, transformación digital, ciberseguridad, inteligencia artificial y servicios en la nube."
       },
       "project2": {
-        "title": "Shoescol",
-        "description": "Plataforma de comercio para zapatos y ropa, ofreciendo una amplia gama de productos con una interfaz fácil de usar."
+        "title": "System Center",
+        "description": "Diseñé y desarrollé la plataforma institucional para una entidad educativa dedicada a programas técnicos laborales y capacitación profesional, mejorando su presencia digital."
       },
       "project3": {
-        "title": "Ecommerce",
-        "description": "Tienda en línea para compras modernas."
+        "title": "Shoescol",
+        "description": "Desarrollé una tienda en línea para la venta de calzado y moda, con una interfaz moderna y enfocada en la experiencia del usuario."
       },
       "project4": {
+        "title": "Ecommerce",
+        "description": "Implementé una tienda en línea minimalista y moderna, optimizada para ofrecer una experiencia de compra fluida y segura."
+      },
+      "project5": {
         "title": "Poslite",
-        "description": "Landing page para un sistema POS."
+        "description": "Desarrollé la landing page de presentación para un sistema POS, destacando sus principales características y beneficios."
       }
     }
   },

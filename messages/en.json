@@ -2,39 +2,43 @@
   "portfolioPage": {
     "name": "Angel Chavez",
     "title": "Software Developer",
-    "aboutMe": "Hi, I'm Angel. I live in Valledupar, Colombia. I'm a Software Developer with a strong focus on user experience, design, and high-quality code. I'm passionate about building tech solutions that are intuitive, efficient, and scalable.",
+    "aboutMe": "Hi, I’m Angel. I live in Valledupar, Colombia. I’m a Software Developer with a strong focus on user experience, design, and code quality. I’m passionate about creating technological solutions that are intuitive, efficient, and scalable.",
     "projectsLink": "Projects",
-    "educationLink": "Education",
-    "aboutMeSectionTitle": "About me",
+    "educationLink": "Publications",
+    "aboutMeSectionTitle": "About Me",
     "featuredProjectsSectionTitle": "Featured Projects",
     "projects": {
       "project1": {
-        "title": "System Center",
-        "description": "Corporate web platform for educational institution specializing in technical vocational programs and professional training."
+        "title": "Alphaware",
+        "description": "I developed the corporate website for Alphaware, a technology solutions company specialized in custom software development, digital transformation consulting, cybersecurity, artificial intelligence, and cloud services."
       },
       "project2": {
-        "title": "Shoescol",
-        "description": "E-commerce platform for shoes and clothing, offering a wide range of products with a user-friendly interface."
+        "title": "System Center",
+        "description": "I designed and developed the corporate web platform for an educational institution focused on technical and professional training programs, improving its digital presence and academic management."
       },
       "project3": {
+        "title": "Shoescol",
+        "description": "I built an e-commerce platform for shoes and clothing, offering a modern shopping experience with a user-friendly and visually appealing interface."
+      },
+      "project4": {
         "title": "PortfoliosHub",
-        "description": "Find the best portfolios and showcase your work."
+        "description": "I created a web application that allows users to discover and showcase professional portfolios, connecting talent with opportunities."
       }
     },
     "viewAllProjects": "View all projects",
-    "latestEducationSectionTitle": "Latest education",
+    "latestEducationSectionTitle": "Education",
     "education": {
       "education1": {
-        "title": "Universidad Popular del Cesar",
-        "date": "Systems Engineering, 2021 - Now."
+        "title": "Popular University of Cesar",
+        "date": "Systems Engineering, 2021 - Present."
       },
       "education2": {
-        "title": "Servicio Nacional de Aprendizaje SENA",
-        "date": "Administrative Management Technologist, 2018 - 2021."
+        "title": "National Learning Service (SENA)",
+        "date": "Technologist in Administrative Management, 2018 - 2021."
       },
       "education3": {
-        "title": "Universidad Tecnológica de Pereira",
-        "date": "MINTIC 2022: Web application development, 2022."
+        "title": "Technological University of Pereira",
+        "date": "MINTIC 2022: Web Application Development, 2022."
       }
     },
     "viewAllEducation": "View all education",
@@ -42,27 +46,27 @@
   },
   "educationPage": {
     "title": "Education",
-    "certificationsSectionTitle": "Certifications and Courses",
-    "viewProjectsLink": "Back to home",
+    "certificationsSectionTitle": "Certifications & Courses",
+    "viewProjectsLink": "Back to Home",
     "certifications": {
       "cert1": {
-        "institution": "Universidad Popular del Cesar",
+        "institution": "Popular University of Cesar",
         "title": "Systems Engineering",
         "date": "Sep. 2021 - Present"
       },
       "cert2": {
-        "institution": "National Learning Service SENA",
-        "title": "Administrative Management Technologist",
+        "institution": "National Learning Service (SENA)",
+        "title": "Technologist in Administrative Management",
         "date": "Dec. 2021"
       },
       "cert3": {
-        "institution": "Universidad Tecnológica de Pereira",
+        "institution": "Technological University of Pereira",
         "title": "MINTIC 2022: Web Application Development",
         "date": "Dec. 2022"
       },
       "cert4": {
-        "institution": "Microsoft and LinkedIn",
-        "title": "Professional Fundamentals of Software Development",
+        "institution": "Microsoft & LinkedIn",
+        "title": "Professional Software Development Fundamentals",
         "date": "Apr. 2023"
       },
       "cert5": {
@@ -72,54 +76,58 @@
       },
       "cert6": {
         "institution": "Google",
-        "title": "Cybersecurity Fundamentals",
+        "title": "Foundations of Cybersecurity",
         "date": "Jul. 2024"
       },
       "cert7": {
         "institution": "Meta",
-        "title": "Introduction to Back-end Development",
+        "title": "Introduction to Back-End Development",
         "date": "Sep. 2024"
       },
       "cert8": {
         "institution": "Google",
-        "title": "Google AI Essentials",
+        "title": "Google AI Fundamentals",
         "date": "Sep. 2024"
       },
       "cert9": {
-        "institution": "University of California, Irvine – The Paul Merage School of Business",
-        "title": "How to solve problems and make decisions effectively",
+        "institution": "University of California, Irvine – Paul Merage School of Business",
+        "title": "How to Solve Problems and Make Effective Decisions",
         "date": "Sep. 2024"
       }
     }
   },
   "projectsPage": {
     "title": "Featured Projects",
-    "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+    "description": "I’ve worked on a variety of projects, from simple websites to complex applications. Here are some of my favorites.",
     "website": "Website",
-    "source": "Source",
-    "goBack": "Go back to home",
+    "source": "Source Code",
+    "goBack": "Back to Home",
     "projects": {
       "project1": {
-        "title": "System Center",
-        "description": "Corporate web platform for educational institution specializing in technical vocational programs and professional training."
+        "title": "Alphaware",
+        "description": "I developed the corporate website for Alphaware, a technology solutions company specialized in custom software, digital transformation, cybersecurity, artificial intelligence, and cloud services."
       },
       "project2": {
-        "title": "Shoescol",
-        "description": "E-commerce platform for shoes and clothing, offering a wide range of products with a user-friendly interface."
+        "title": "System Center",
+        "description": "I designed and built the institutional platform for an educational organization focused on technical and professional training, enhancing its digital presence and usability."
       },
       "project3": {
-        "title": "Ecommerce",
-        "description": "An online store for modern shopping."
+        "title": "Shoescol",
+        "description": "I developed an online store for footwear and fashion with a modern design, responsive interface, and optimized user experience."
       },
       "project4": {
+        "title": "Ecommerce",
+        "description": "I implemented a modern, minimalist e-commerce site optimized for a smooth and secure shopping experience."
+      },
+      "project5": {
         "title": "Poslite",
-        "description": "Landing page for a POS system."
+        "description": "I developed a landing page to showcase a POS system, highlighting its key features and advantages for businesses."
       }
     }
   },
   "notFoundPage": {
     "title": "404",
     "description": "Page not found",
-    "backToHome": "Back to home"
+    "backToHome": "Back to Home"
   }
 }

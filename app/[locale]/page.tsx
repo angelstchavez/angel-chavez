@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import ExternalLink from "@/components/ui/external-link";
 
 import systemcenter from "@/assets/icons/systemcenter.jpg";
-import shoescol from "@/assets/icons/shoescol.jpg";
+import alphaware from "@/assets/icons/alphaware.png";
 
 import sena from "@/assets/icons/sena.png";
 import upc from "@/assets/icons/upc.png";
@@ -34,6 +34,22 @@ export default function PortfolioPage() {
         <div className="rounded text-primary shadow-sm">
           <div className="relative w-12 h-12">
             <Image
+              src={alphaware}
+              alt="Alphaware icon"
+              fill
+              className="object-cover rounded"
+            />
+          </div>
+        </div>
+      ),
+      id: "project1",
+      href: "https://www.alphaware.co/es",
+    },
+    {
+      icon: (
+        <div className="rounded text-primary shadow-sm">
+          <div className="relative w-12 h-12">
+            <Image
               src={systemcenter}
               alt="University icon"
               fill
@@ -42,24 +58,8 @@ export default function PortfolioPage() {
           </div>
         </div>
       ),
-      id: "project1",
-      href: "https://www.systemcenter.edu.co",
-    },
-    {
-      icon: (
-        <div className="rounded text-primary shadow-sm">
-          <div className="relative w-12 h-12">
-            <Image
-              src={shoescol}
-              alt="Shoescol icon"
-              fill
-              className="object-cover rounded"
-            />
-          </div>
-        </div>
-      ),
       id: "project2",
-      href: "https://shoescol.vercel.app/",
+      href: "https://www.systemcenter.edu.co",
     },
   ];
   const education: Education[] = [
