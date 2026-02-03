@@ -1,8 +1,15 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
 import { useState, useEffect } from "react";
+import { Sun, Moon } from "lucide-react";
+import { Button } from "../ui/button";
 
-export function ThemeToggle() {
+type ThemeToggleProps = {
+  normalize?: boolean;
+};
+
+export function ThemeToggle({ normalize = false }: ThemeToggleProps) {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -32,13 +39,17 @@ export function ThemeToggle() {
   }
 
   return (
-    <button
+    <Button
       onClick={toggleDarkMode}
-      className="group cursor-pointer"
-      title="Toggle theme"
-      aria-label="Toggle theme"
+      variant="ghost"
+      size="icon"
+      title="Cambiar tema"
+      aria-label="Cambiar tema"
+      className={["cursor-pointer", !normalize && "size-7"]
+        .filter(Boolean)
+        .join(" ")}
     >
-      <div className="bg-foreground h-4 w-4 rounded duration-200 group-hover:scale-110 group-active:scale-95" />
-    </button>
+      {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+    </Button>
   );
 }

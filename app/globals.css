@@ -41,6 +41,9 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
 }
 
 :root {
@@ -115,28 +118,8 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
   body {
     @apply bg-background text-foreground;
-    text-rendering: optimizeLegibility;
-    font-variant-ligatures: common-ligatures;
   }
-  .font-display {
-    font-weight: var(--display-weight);
-  }
-  .font-text {
-    font-weight: var(--text-weight);
-  }
-}
-
-:root {
-  --display-weight: 600;
-  --text-weight: 400;
-}
-
-@theme inline {
-  --font-display: var(--display-family);
-  --font-text: var(--text-family);
 }
