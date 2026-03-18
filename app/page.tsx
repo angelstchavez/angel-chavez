@@ -36,7 +36,7 @@ export default function Home() {
         <div className="space-y-8">
           {[
             {
-              role: "Senior Frontend Developer",
+              role: "Frontend Developer",
               company: "AlphaWare SaS",
               date: "Octubre 2025 — Presente",
               desc: "Liderazgo en el desarrollo de interfaces modernas. Enfoque en rendimiento, accesibilidad y arquitecturas limpias para soluciones empresariales.",
