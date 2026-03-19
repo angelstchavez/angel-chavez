@@ -6,8 +6,17 @@ import alphaware from "@/components/images/alphaware.png";
 import systemcenter from "@/components/images/systemcenter.png";
 import shoescol from "@/components/images/shoescol.png";
 import upcboard from "@/components/images/upcboard.png";
+import regalosjd from "@/components/images/regalosjd.png";
 
 const projects = [
+  {
+    title: "Software Regalos JD",
+    description:
+      "Desarrollo de un sistema POS personalizado para la gestión de pedidos, control de inventario y reportes de ventas.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+    image: regalosjd,
+    url: "https://www.instagram.com/regalosjd/",
+  },
   {
     title: "Alphaware SaS",
     description:
