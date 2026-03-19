@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import alphaware from "@/components/images/alphaware.png";
 import systemcenter from "@/components/images/systemcenter.png";
 import shoescol from "@/components/images/shoescol.png";
+import upcboard from "@/components/images/upcboard.png";
 
 const projects = [
   {
@@ -22,6 +23,14 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "UI Design"],
     image: systemcenter,
     url: "https://systemcenter.edu.co/",
+  },
+  {
+    title: "UPC Resultados Saber Pro",
+    description:
+      "Desarrollo de una aplicación web para mostrar resultados de pruebas académicas. Implementación de un diseño centrado en el usuario para mejorar la experiencia de navegación y acceso a información.",
+    tags: ["Next.js", "Python", "IA"],
+    image: upcboard,
+    url: "https://upc-board.vercel.app",
   },
   {
     title: "Shoescol",
